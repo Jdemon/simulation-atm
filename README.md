@@ -2,9 +2,19 @@
 technical test
 
 # how to build
+
+1.Go to maven project folder
 ```
 cd ./simulation-atm
+```
+
+2.maven clean build
+```
 mvnw clean install
+```
+Or
+```
+./mvnw clean install
 ```
 
 # how to run
