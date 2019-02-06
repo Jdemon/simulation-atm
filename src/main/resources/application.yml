@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+
+bank:
+  note:
+    twenty: 1000
+    fifty: 1000
+    one-hundred: 1000
+    five-hundred: 1000
+    one-thousand: 1000
+---
+spring:
+  profiles: test
+  
+bank:
+  note:
+    twenty: 0
+    fifty: 0
+    one-hundred: 0
+    five-hundred: 0
+    one-thousand: 0
