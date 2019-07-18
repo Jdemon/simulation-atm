@@ -1,5 +1,5 @@
 # simulation-atm
-technical test
+simulation-atm
 
 # how to build
 
